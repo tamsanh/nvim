@@ -7,11 +7,15 @@ return {
         hide_dotfiles = false,
         hide_gitignored = false,
         hide_by_name = {
-          ".DS_Store",
-          "thumbs.db",
           "node_modules",
         },
+        never_show = {
+          ".DS_Store",
+          "thumbs.db",
+        },
       },
+      follow_current_file = true,
+      group_empty_dirs = true,
     },
   },
 }
