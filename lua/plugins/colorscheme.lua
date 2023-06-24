@@ -2,7 +2,7 @@ math.randomseed(os.time())
 
 local t = os.date("*t")
 
-local isDay = 6 <= t.hour and t.hour <= 19
+local isDay = 6 <= t.hour and t.hour < 19
 
 local daySchemes = {
   "zellner",
